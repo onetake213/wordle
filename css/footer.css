@@ -22,8 +22,9 @@ footer {
   align-items: center;
   background-color: #d3d6da;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   border-radius: 4px;
+  padding-bottom: 2px;
 }
 
 .key-block__enter {
@@ -36,6 +37,7 @@ footer {
   font-weight: bold;
   font-size: 13px;
   border-radius: 4px;
+  padding-bottom: 2px;
 }
 
 .key-block__backspace {
@@ -46,8 +48,10 @@ footer {
   align-items: center;
   background-color: #d3d6da;
   border-radius: 4px;
+  padding-bottom: 2px;
 }
 
 .key-block__backspace img {
   width: 25px;
+  padding-top: 2px;
 }

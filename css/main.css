@@ -7,6 +7,10 @@ main {
   margin-top: 40px;
 }
 
+.time{
+  font-weight: bold;
+}
+
 .board-row {
   display: flex;
   justify-content: center;
@@ -21,4 +25,7 @@ main {
   justify-content: center;
   align-items: center;
   border: 2px solid #d3d6da;
+  font-size: xx-large;
+  font-weight: bold;
 }
+

@@ -4,12 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wordle</title>
+    <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="header-icon">
+        <div class="header-icon__left">
+          <img src="assets/hamburger.svg" alt="" />
+        </div>
+        <div class="header-icon__middle">wordle</div>
+        <div class="header-icon__right">
+          <img src="assets/question.svg" alt="" />
+          <img src="assets/chartbar.svg" alt="" />
+          <img src="assets/settings.svg" alt="" />
+        </div>
+      </div>
+    </header>
     <main>
+      <div class="time">00:00</div>
       <div class="board-row row-0">
         <div class="board-block" data-index="00"></div>
         <div class="board-block" data-index="01"></div>
@@ -18,11 +32,11 @@
         <div class="board-block" data-index="04"></div>
       </div>
       <div class="board-row row-1">
-        <div class="board-block" data-index="20"></div>
-        <div class="board-block" data-index="21"></div>
-        <div class="board-block" data-index="22"></div>
-        <div class="board-block" data-index="23"></div>
-        <div class="board-block" data-index="24"></div>
+        <div class="board-block" data-index="10"></div>
+        <div class="board-block" data-index="11"></div>
+        <div class="board-block" data-index="12"></div>
+        <div class="board-block" data-index="13"></div>
+        <div class="board-block" data-index="14"></div>
       </div>
       <div class="board-row row-2">
         <div class="board-block" data-index="20"></div>
@@ -91,5 +105,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
